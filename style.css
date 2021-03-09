@@ -69,6 +69,7 @@ a {
 
 @media screen and (max-width : 450px) {
     .menu {
+        text-align: center;
         display: table;
     }
 }
