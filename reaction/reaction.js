@@ -19,7 +19,7 @@ var str
 var timeid;
 var resultstr = function(str) {
     var st;
-    if(str < 235) {
+    if(str <= 235) {
         st = "상위 1% 입니다.";
     } else if ( 236 < str && str <= 260) {
         st = "상위 5% 입니다.";
@@ -36,10 +36,11 @@ var resultstr = function(str) {
     } else if ( 400 < str && str <= 600) {
         st = "하위 15% 입니다.";
     } else if ( 601 < str && str <= 800) {
-        st = "하위 5% 입니다.";
+        st = "하위 10% 입니다.";
+    } else if ( 801 < str && str <= 1000 ) {
+        st = "하위 3% 입니다.";
     } else if ( 1000 < str ) {
         st = "하위 1% 입니다.";
-    }
     return st;
 }
 btn.addEventListener('click', function() {
