@@ -36,13 +36,16 @@ a {
     text-align: center;
 }
 
+.menu__item {
+    flex: 0 0 33.3333%;
+    max-width: 33%;
+}
+
 .br {
     border-radius: 6px;
     margin: 0.3rem;
     padding: 1rem;
     background-color: #B4FBFF;
-    flex: 0 0 33.3333%;
-    max-width: 33%;
 }
 
 .menu button {
@@ -92,6 +95,15 @@ a {
     .menu {
         margin: 0 auto;
         display: table;
+    }
+
+    .info {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+
+    .menu__item {
+        max-width: 90%;
     }
     .links {
         text-align: center;
