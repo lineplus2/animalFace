@@ -64,7 +64,7 @@ btn.addEventListener('click', function() {
             time = (edtime - sttime);
             str = Number(time).toLocaleString('en');
             text.innerText = "결과";
-            p1.innerText = str + resultstr(time) + "Ms 다시 하려면 클릭해주세요";
+            p1.innerText = str+ "Ms" + resultstr(time) +" 다시 하려면 클릭해주세요";
             btn.style.backgroundColor='gray'
             count = 0;
             break;
