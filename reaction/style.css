@@ -7,6 +7,9 @@ a {
     color: #fff;
 }
 
+h1 {
+    font-size: 30px;
+}
 .navbar {
     text-align: center;
     background-color: #000!important;
