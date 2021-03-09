@@ -79,6 +79,11 @@ a {
     display: none;
 }
 
+.ad-banner {
+    width: 320;
+    height: 250;
+}
+
 
 @media screen and (max-width : 450px) {
     .menu {
