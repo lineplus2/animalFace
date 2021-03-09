@@ -31,11 +31,6 @@ a {
     border:1px solid #50D6FF;
 }
 
-.menu {
-    display: flex;
-    text-align: center;
-}
-
 .br {
     border-radius: 6px;
     margin: 0.3rem;
@@ -43,28 +38,11 @@ a {
     background-color: #B4FBFF;
 }
 
-.menu button {
-    margin-bottom: 1rem;
-    padding: 0.5rem;
-    background-color: #50D6FF;
-    color: white;
-    border: none;
-    border-radius: 4px;
-}
-
 .links {
     text-align: center;
     margin: 5px;
 }
 
-.badge {
-    text-decoration: none;
-    border-radius: 5px;
-    background-color: red;
-    color: orange;
-    padding: 2px 5px;
-    font-weight: bolder;
-}
 
 .copyright {
     text-align: right;
@@ -86,11 +64,24 @@ a {
     margin: 0 auto;
 }
 
+.reaction {
+    text-align: center;
+}
+
+.game {
+    padding: 75px;
+    border: none;
+    background-color: indianred;
+}
+
+.number__text {
+    padding: 10px;
+    font-weight: bolder;
+}
+
+
+
 @media screen and (max-width : 450px) {
-    .menu {
-        margin: 0 auto;
-        display: table;
-    }
     .links {
         text-align: center;
         margin: 0 auto;
