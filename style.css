@@ -32,7 +32,7 @@ a {
 }
 
 .menu {
-    flex: 0 0 33.3333%;
+    display: flex;
     text-align: center;
 }
 
@@ -41,6 +41,8 @@ a {
     margin: 0.3rem;
     padding: 1rem;
     background-color: #B4FBFF;
+    flex: 0 0 33.3333%;
+    max-width: 33%;
 }
 
 .menu button {
