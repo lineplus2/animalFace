@@ -25,9 +25,11 @@ a {
 
 .info {
     text-align: center;
-    border: 1px solid black;
 }
 
+.container hr {
+    border:1px solid #50D6FF;
+}
 
 .menu {
     display: flex;
@@ -36,15 +38,16 @@ a {
 
 .br {
     border-radius: 6px;
-    margin: 5px;
+    margin: 1rem;
+    background-color: #B4FBFF;
 }
 
 .mu {
-    border: 1px solid black;
 }
 
 .menu button {
-    margin-top: 20px;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
 }
 
 .links {
