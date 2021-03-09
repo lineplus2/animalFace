@@ -1,8 +1,47 @@
-.ad-banner {
-    width: 640px;
-    margin: 0 auto;
+body {
+    margin: 0;
 }
 
-.cen {
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #000!important;
+    justify-content: center;
+    padding: 8px 5px;
+}
+
+.navbar__logo h2 i{
+    color:orange;
+}
+
+.container {
     margin: 0 auto;
+    max-width: 1050px;
+}
+
+.info {
+    text-align: center;
+    border: 1px solid black;
+}
+
+
+.menu {
+    display: flex;
+    text-align: center;
+}
+
+.br {
+    border-radius: 6px;
+}
+
+.mu {
+    border: 1px solid black;
+}
+
+.menu button {
+    margin-top: 20px;
 }
