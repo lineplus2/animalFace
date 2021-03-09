@@ -82,6 +82,7 @@ a {
 .ad-banner {
     width: 320;
     height: 250;
+    text-align: center;
     margin: 0 auto;
 }
 
