@@ -87,7 +87,7 @@ a {
     }
     .links {
         text-align: center;
-        margin: 2 auto;
+        margin: 0 auto;
         display: table;
     }
 }
