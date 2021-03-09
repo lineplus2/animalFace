@@ -41,6 +41,7 @@ var resultstr = function(str) {
         st = "하위 3% 입니다.";
     } else if ( 1000 < str ) {
         st = "하위 1% 입니다.";
+    }
     return st;
 }
 btn.addEventListener('click', function() {
