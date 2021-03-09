@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #000 !important;
+    justify-content: center;
+    padding: 8px 0px;
+}
+
+.navbar__logo h2 i {
+    color: orange;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1050px;
+}
+
+.info {
+    text-align: center;
+}
+
+.container hr {
+    border: 1px solid #50d6ff;
+}
+
+.br {
+    border-radius: 6px;
+    margin: 0.3rem;
+    padding: 1rem;
+    background-color: #b4fbff;
+}
+
+.links {
+    text-align: center;
+    margin: 5px;
+}
+
+.badge {
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: red;
+    color: orange;
+    padding: 2px 5px;
+    font-weight: bolder;
+}
+
+.copyright {
+    text-align: right;
+    font-size: 5px;
+}
+
+.copyright a {
+    color: gray;
+}
+
+.ad-banner {
+    width: 320;
+    height: 250;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 450px) {
+    .menu {
+        margin: 0 auto;
+        display: table;
+    }
+
+    .container {
+        margin: 0 auto;
+        max-width: 90%;
+    }
+}
