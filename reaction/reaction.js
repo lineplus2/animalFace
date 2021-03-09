@@ -47,7 +47,7 @@ btn.addEventListener('click', function() {
         case 0 :
             text.innerText = "준비";
             p1.innerText = "초록화면이 되면 클릭하세요!"
-            btn.style.backgroundColor='blue';
+            btn.style.backgroundColor='#6464CD';
             count = 1;
             
                 timeid = setTimeout(function() {
@@ -62,7 +62,7 @@ btn.addEventListener('click', function() {
             clearTimeout(timeid);
             text.innerText = "실패";
             p1.innerText = "초록화면이 되면 클릭해주세요, 처음부터 시작하려면 클릭해주세요";
-            btn.style.backgroundColor='red';
+            btn.style.backgroundColor='#E6749D';
             count = 0;
             break;
         case 2 :
@@ -72,7 +72,7 @@ btn.addEventListener('click', function() {
             str = Number(time).toLocaleString('en');
             text.innerText = "결과";
             p1.innerText = str+ "Ms   " + stt +" 다시 하려면 클릭해주세요";
-            btn.style.backgroundColor='gray'
+            btn.style.backgroundColor='#b4b4b4'
             count = 0;
             break;
     }  
