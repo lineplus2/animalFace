@@ -73,6 +73,7 @@ a {
     border: none;
     background-color: indianred;
     margin-bottom: 10px;
+    border-radius: 6px;
 }
 
 .number__text {
