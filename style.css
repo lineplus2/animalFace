@@ -89,6 +89,6 @@ a {
         text-align: center;
         margin: 0 auto;
         display: table;
-        padding: 5px 0px;
+        padding-top: 5px;
     }
 }
