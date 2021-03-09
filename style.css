@@ -11,7 +11,7 @@ a {
     text-align: center;
     background-color: #000!important;
     justify-content: center;
-    padding: 8px 5px;
+    padding: 8px 0px;
 }
 
 .navbar__logo h2 i{
@@ -89,5 +89,6 @@ a {
         text-align: center;
         margin: 0 auto;
         display: table;
+        padding: 5px 0px;
     }
 }
