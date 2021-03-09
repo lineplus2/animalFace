@@ -75,10 +75,18 @@ a {
     color: gray;
 }
 
+.links {
+    display: none;
+}
+
 
 @media screen and (max-width : 450px) {
     .menu {
         margin: 0 auto;
         display: table;
+    }
+    .links {
+        text-align: center;
+        display: flex;
     }
 }
