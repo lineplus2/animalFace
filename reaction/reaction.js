@@ -33,6 +33,12 @@ var resultstr = function(str) {
         st = "상위 40% 입니다.";
     } else if ( 351 < str && str <= 400) {
         st = "하위 40% 입니다.";
+    } else if ( 400 < str && str <= 600) {
+        st = "하위 15% 입니다.";
+    } else if ( 601 < str && str <= 800) {
+        st = "하위 5% 입니다.";
+    } else if ( 1000 < str ) {
+        st = "하위 1% 입니다.";
     }
     return st;
 }
