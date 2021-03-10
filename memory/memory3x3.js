@@ -104,9 +104,9 @@ bt1.addEventListener('click', function () {
         j++;
 
         point = Number(j).toLocaleString('en');
-        score.innerText = '현재점수 : ' + point;
+        score.innerText = '현재점수 : ' + point + ' / 9';
     } else {
-        score.innerText = '최종점수 : ' + point;
+        score.innerText = '최종점수 : ' + point + ' / 9';
         j = 0;
     }
 });
@@ -116,9 +116,9 @@ bt2.addEventListener('click', function () {
         j++;
 
         point = Number(j).toLocaleString('en');
-        score.innerText = '현재점수 : ' + point;
+        score.innerText = '현재점수 : ' + point + ' / 9';
     } else {
-        score.innerText = '최종점수 : ' + point;
+        score.innerText = '최종점수 : ' + point + ' / 9';
         j = 0;
     }
 });
@@ -128,9 +128,9 @@ bt3.addEventListener('click', function () {
         j++;
 
         point = Number(j).toLocaleString('en');
-        score.innerText = '현재점수 : ' + point;
+        score.innerText = '현재점수 : ' + point + ' / 9';
     } else {
-        score.innerText = '최종점수 : ' + point;
+        score.innerText = '최종점수 : ' + point + ' / 9';
         j = 0;
     }
 });
@@ -140,9 +140,9 @@ bt4.addEventListener('click', function () {
         j++;
 
         point = Number(j).toLocaleString('en');
-        score.innerText = '현재점수 : ' + point;
+        score.innerText = '현재점수 : ' + point + ' / 9';
     } else {
-        score.innerText = '최종점수 : ' + point;
+        score.innerText = '최종점수 : ' + point + ' / 9';
         j = 0;
     }
 });
@@ -152,9 +152,9 @@ bt5.addEventListener('click', function () {
         j++;
 
         point = Number(j).toLocaleString('en');
-        score.innerText = '현재점수 : ' + point;
+        score.innerText = '현재점수 : ' + point + ' / 9';
     } else {
-        score.innerText = '최종점수 : ' + point;
+        score.innerText = '최종점수 : ' + point + ' / 9';
         j = 0;
     }
 });
@@ -164,9 +164,9 @@ bt6.addEventListener('click', function () {
         j++;
 
         point = Number(j).toLocaleString('en');
-        score.innerText = '현재점수 : ' + point;
+        score.innerText = '현재점수 : ' + point + ' / 9';
     } else {
-        score.innerText = '최종점수 : ' + point;
+        score.innerText = '최종점수 : ' + point + ' / 9';
         j = 0;
     }
 });
@@ -175,9 +175,9 @@ bt7.addEventListener('click', function () {
     if (a === 6) {
         j++;
         point = Number(j).toLocaleString('en');
-        score.innerText = '현재점수 : ' + point;
+        score.innerText = '현재점수 : ' + point + ' / 9';
     } else {
-        score.innerText = '최종점수 : ' + point;
+        score.innerText = '최종점수 : ' + point + ' / 9';
         j = 0;
     }
 });
@@ -186,9 +186,9 @@ bt8.addEventListener('click', function () {
     if (a === 7) {
         j++;
         point = Number(j).toLocaleString('en');
-        score.innerText = '현재점수 : ' + point;
+        score.innerText = '현재점수 : ' + point + ' / 9';
     } else {
-        score.innerText = '최종점수 : ' + point;
+        score.innerText = '최종점수 : ' + point + ' / 9';
         j = 0;
     }
 });
@@ -197,16 +197,16 @@ bt9.addEventListener('click', function () {
     if (a === 8) {
         j++;
         point = Number(j).toLocaleString('en');
-        score.innerText = '현재점수 : ' + point;
+        score.innerText = '현재점수 : ' + point + ' / 9';
     } else {
-        score.innerText = '최종점수 : ' + point;
+        score.innerText = '최종점수 : ' + point + ' / 9';
         j = 0;
     }
 });
 
 stbtn.addEventListener('click', function () {
     timeid2 = setInterval(function () {
-        score.innerText = '현재점수 : 0';
+        score.innerText = '현재점수 : 0 / 9';
         var c = arr[i];
         if (i === 8) {
             clearInterval(timeid2);
