@@ -102,117 +102,109 @@ bt1.addEventListener('click', function () {
     var a = arr[i];
     if (a === 0) {
         j++;
-
+        i++;
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
     }
-    i++;
 });
 bt2.addEventListener('click', function () {
     var a = arr[i];
     if (a === 1) {
         j++;
-
+        i++;
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
     }
-    i++;
 });
 bt3.addEventListener('click', function () {
     var a = arr[i];
     if (a === 2) {
         j++;
-
+        i++;
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
     }
-    i++;
 });
 bt4.addEventListener('click', function () {
     var a = arr[i];
     if (a === 3) {
         j++;
+        i++;
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
     }
-    i++;
 });
 bt5.addEventListener('click', function () {
     var a = arr[i];
     if (a === 4) {
         j++;
-
+        i++;
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
     }
-    i++;
 });
 bt6.addEventListener('click', function () {
     var a = arr[i];
     if (a === 5) {
         j++;
-
+        i++;
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
     }
-    i++;
 });
 bt7.addEventListener('click', function () {
     var a = arr[i];
     if (a === 6) {
         j++;
-
+        i++;
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
     }
-    i++;
 });
 bt8.addEventListener('click', function () {
     var a = arr[i];
     if (a === 7) {
         j++;
-
+        i++;
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
     }
-    i++;
 });
 bt9.addEventListener('click', function () {
     var a = arr[i];
     if (a === 8) {
         j++;
-
+        i++;
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
     }
-    i++;
 });
 
 stbtn.addEventListener('click', function () {
@@ -225,6 +217,5 @@ stbtn.addEventListener('click', function () {
         }
         console.log(c);
         btncolor(c);
-        i++;
     }, 1000);
 });
