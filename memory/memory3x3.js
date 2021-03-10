@@ -107,6 +107,8 @@ bt1.addEventListener('click', function () {
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
+        j = 0;
+        i = 10;
     }
 });
 bt2.addEventListener('click', function () {
@@ -118,6 +120,8 @@ bt2.addEventListener('click', function () {
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
+        j = 0;
+        i = 10;
     }
 });
 bt3.addEventListener('click', function () {
@@ -129,6 +133,8 @@ bt3.addEventListener('click', function () {
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
+        j = 0;
+        i = 10;
     }
 });
 bt4.addEventListener('click', function () {
@@ -140,6 +146,8 @@ bt4.addEventListener('click', function () {
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
+        j = 0;
+        i = 10;
     }
 });
 bt5.addEventListener('click', function () {
@@ -151,6 +159,8 @@ bt5.addEventListener('click', function () {
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
+        j = 0;
+        i = 10;
     }
 });
 bt6.addEventListener('click', function () {
@@ -162,6 +172,8 @@ bt6.addEventListener('click', function () {
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
+        j = 0;
+        i = 10;
     }
 });
 bt7.addEventListener('click', function () {
@@ -173,6 +185,8 @@ bt7.addEventListener('click', function () {
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
+        j = 0;
+        i = 10;
     }
 });
 bt8.addEventListener('click', function () {
@@ -184,6 +198,8 @@ bt8.addEventListener('click', function () {
         score.innerText = '현재점수 : ' + point;
     } else {
         score.innerText = '최종점수 : ' + point;
+        j = 0;
+        i = 10;
     }
 });
 bt9.addEventListener('click', function () {
@@ -196,6 +212,7 @@ bt9.addEventListener('click', function () {
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
+        i = 10;
     }
 });
 
