@@ -99,7 +99,7 @@ btncolor = function (chois) {
 };
 
 bt1.addEventListener('click', function () {
-    var a = arr[i];
+    var a = arr[j];
     if (a === 0) {
         j++;
         i++;
@@ -111,7 +111,7 @@ bt1.addEventListener('click', function () {
     }
 });
 bt2.addEventListener('click', function () {
-    var a = arr[i];
+    var a = arr[j];
     if (a === 1) {
         j++;
         i++;
@@ -123,7 +123,7 @@ bt2.addEventListener('click', function () {
     }
 });
 bt3.addEventListener('click', function () {
-    var a = arr[i];
+    var a = arr[j];
     if (a === 2) {
         j++;
         i++;
@@ -135,7 +135,7 @@ bt3.addEventListener('click', function () {
     }
 });
 bt4.addEventListener('click', function () {
-    var a = arr[i];
+    var a = arr[j];
     if (a === 3) {
         j++;
         i++;
@@ -147,7 +147,7 @@ bt4.addEventListener('click', function () {
     }
 });
 bt5.addEventListener('click', function () {
-    var a = arr[i];
+    var a = arr[j];
     if (a === 4) {
         j++;
         i++;
@@ -159,7 +159,7 @@ bt5.addEventListener('click', function () {
     }
 });
 bt6.addEventListener('click', function () {
-    var a = arr[i];
+    var a = arr[j];
     if (a === 5) {
         j++;
         i++;
@@ -171,7 +171,7 @@ bt6.addEventListener('click', function () {
     }
 });
 bt7.addEventListener('click', function () {
-    var a = arr[i];
+    var a = arr[j];
     if (a === 6) {
         j++;
         i++;
@@ -183,7 +183,7 @@ bt7.addEventListener('click', function () {
     }
 });
 bt8.addEventListener('click', function () {
-    var a = arr[i];
+    var a = arr[j];
     if (a === 7) {
         j++;
         i++;
@@ -195,7 +195,7 @@ bt8.addEventListener('click', function () {
     }
 });
 bt9.addEventListener('click', function () {
-    var a = arr[i];
+    var a = arr[j];
     if (a === 8) {
         j++;
         i++;
