@@ -9,13 +9,13 @@ a {
 
 .navbar {
     text-align: center;
-    background-color: #000!important;
+    background-color: #000 !important;
     justify-content: center;
     padding: 8px 0px;
 }
 
-.navbar__logo h2 i{
-    color:orange;
+.navbar__logo h2 i {
+    color: orange;
 }
 
 .container {
@@ -28,7 +28,7 @@ a {
 }
 
 .container hr {
-    border:1px solid #50D6FF;
+    border: 1px solid #50d6ff;
 }
 
 .menu {
@@ -37,20 +37,20 @@ a {
 }
 
 .menu__item {
-    max-width: 33%;
+    width: 33%;
 }
 
 .br {
     border-radius: 6px;
     margin: 0.3rem;
     padding: 1rem;
-    background-color: #B4FBFF;
+    background-color: #b4fbff;
 }
 
 .menu button {
     margin-bottom: 1rem;
     padding: 0.5rem;
-    background-color: #50D6FF;
+    background-color: #50d6ff;
     color: white;
     border: none;
     border-radius: 4px;
@@ -90,7 +90,7 @@ a {
     margin: 0 auto;
 }
 
-@media screen and (max-width : 450px) {
+@media screen and (max-width: 450px) {
     .menu {
         margin: 0 auto;
         display: table;
