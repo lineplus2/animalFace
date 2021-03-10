@@ -289,6 +289,7 @@ bt9.addEventListener('click', function () {
 
 stbtn.addEventListener('click', function () {
     i = 0;
+    j = 0;
     btnDisabled();
     stbtn.disabled = true;
     timeid2 = setInterval(function () {
