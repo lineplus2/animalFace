@@ -102,7 +102,7 @@ bt1.addEventListener('click', function () {
     var a = arr[j];
     if (a === 0) {
         j++;
-        i++;
+
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
@@ -114,7 +114,7 @@ bt2.addEventListener('click', function () {
     var a = arr[j];
     if (a === 1) {
         j++;
-        i++;
+
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
@@ -126,7 +126,7 @@ bt3.addEventListener('click', function () {
     var a = arr[j];
     if (a === 2) {
         j++;
-        i++;
+
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
@@ -138,7 +138,7 @@ bt4.addEventListener('click', function () {
     var a = arr[j];
     if (a === 3) {
         j++;
-        i++;
+
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
@@ -150,7 +150,7 @@ bt5.addEventListener('click', function () {
     var a = arr[j];
     if (a === 4) {
         j++;
-        i++;
+
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
@@ -162,7 +162,7 @@ bt6.addEventListener('click', function () {
     var a = arr[j];
     if (a === 5) {
         j++;
-        i++;
+
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
@@ -174,7 +174,6 @@ bt7.addEventListener('click', function () {
     var a = arr[j];
     if (a === 6) {
         j++;
-        i++;
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
@@ -186,7 +185,6 @@ bt8.addEventListener('click', function () {
     var a = arr[j];
     if (a === 7) {
         j++;
-        i++;
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
@@ -198,7 +196,6 @@ bt9.addEventListener('click', function () {
     var a = arr[j];
     if (a === 8) {
         j++;
-        i++;
         point = Number(j).toLocaleString('en');
         score.innerText = '현재점수 : ' + point;
     } else {
