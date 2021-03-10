@@ -231,10 +231,10 @@ stbtn.addEventListener('click', function () {
         var c = arr[i];
         if (i === 8) {
             clearInterval(timeid2);
+            btnActive();
             i = 0;
         }
         btncolor(c);
         i++;
     }, 1000);
-    btnActive();
 });
