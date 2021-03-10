@@ -59,8 +59,13 @@ a {
     text-align: center;
 }
 
+.startbtn {
+    width: 50px;
+    height: 25px;
+}
 .difficult {
     text-align: center;
+    margin-bottom: 15px;
 }
 
 .difficult button {
