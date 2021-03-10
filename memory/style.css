@@ -60,12 +60,6 @@ a {
 }
 
 .startbtn {
-    column-rule: #0d6efd;
-    color: #fff;
-    border: 1px solid transparent;
-    padding: 0.5rem 1rem;
-    font-size: 1.25rem;
-    border-radius: 0.3rem;
 }
 .difficult {
     text-align: center;
