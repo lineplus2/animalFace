@@ -19,7 +19,7 @@ var randomNum = function () {
 };
 var arr = [];
 var arrcheak = [];
-var point;
+var point = 0;
 
 for (var i = 0; i < 9; i++) {
     var num = randomNum();
