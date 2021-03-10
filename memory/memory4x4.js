@@ -50,7 +50,6 @@ function btnDisabled() {
     bt14.disabled = true;
     bt15.disabled = true;
     bt16.disabled = true;
-    stbtn.disabled = true;
 }
 
 function btnActive() {
@@ -70,11 +69,11 @@ function btnActive() {
     bt14.disabled = false;
     bt15.disabled = false;
     bt16.disabled = false;
-    stbtn.disabled = false;
 }
 
 var i = 0;
 var j = 0;
+btnDisabled();
 
 arrcon = function (arr1 = [i], arr2 = [i], i) {
     if (arr1.findIndex === arr2.findIndex) {
@@ -291,12 +290,14 @@ bt9.addEventListener('click', function () {
 stbtn.addEventListener('click', function () {
     i = 0;
     btnDisabled();
+    stbtn.disabled = true;
     timeid2 = setInterval(function () {
         score.innerText = '현재점수 : 0 / 12';
         var c = arr[i];
         if (i === 11) {
             clearInterval(timeid2);
             btnActive();
+            stbtn.disabled = false;
             i = 0;
         }
         btncolor(c);
