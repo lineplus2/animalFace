@@ -26,7 +26,7 @@ for (var i = 0; i < 9; i++) {
     arr.push(num);
 }
 
-function btnActive() {
+function btnDisabled() {
     bt1.disabled = true;
     bt2.disabled = true;
     bt3.disabled = true;
@@ -38,7 +38,7 @@ function btnActive() {
     bt9.disabled = true;
 }
 
-function btnDisabled() {
+function btnActive() {
     bt1.disabled = false;
     bt2.disabled = false;
     bt3.disabled = false;
