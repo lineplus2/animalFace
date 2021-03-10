@@ -60,12 +60,12 @@ a {
 }
 
 .startbtn {
-    width: 50px;
-    height: 25px;
+    width: 2.5rem;
+    height: 1rem;
 }
 .difficult {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
 }
 
 .difficult button {
