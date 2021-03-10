@@ -205,16 +205,16 @@ bt9.addEventListener('click', function () {
 });
 
 stbtn.addEventListener('click', function () {
+    i = 0;
     timeid2 = setInterval(function () {
-        i = 0;
         score.innerText = '현재점수 : 0 / 9';
         var c = arr[i];
         if (i === 8) {
             clearInterval(timeid2);
             i = 0;
         }
-        i++;
         console.log(c);
         btncolor(c);
+        i++;
     }, 1000);
 });
