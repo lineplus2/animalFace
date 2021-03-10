@@ -108,7 +108,6 @@ bt1.addEventListener('click', function () {
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
-        i = 10;
     }
     i++;
 });
@@ -122,7 +121,6 @@ bt2.addEventListener('click', function () {
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
-        i = 10;
     }
     i++;
 });
@@ -136,7 +134,6 @@ bt3.addEventListener('click', function () {
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
-        i = 10;
     }
     i++;
 });
@@ -149,7 +146,6 @@ bt4.addEventListener('click', function () {
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
-        i = 10;
     }
     i++;
 });
@@ -163,7 +159,6 @@ bt5.addEventListener('click', function () {
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
-        i = 10;
     }
     i++;
 });
@@ -177,7 +172,6 @@ bt6.addEventListener('click', function () {
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
-        i = 10;
     }
     i++;
 });
@@ -191,7 +185,6 @@ bt7.addEventListener('click', function () {
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
-        i = 10;
     }
     i++;
 });
@@ -205,7 +198,6 @@ bt8.addEventListener('click', function () {
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
-        i = 10;
     }
     i++;
 });
@@ -219,7 +211,6 @@ bt9.addEventListener('click', function () {
     } else {
         score.innerText = '최종점수 : ' + point;
         j = 0;
-        i = 10;
     }
     i++;
 });
