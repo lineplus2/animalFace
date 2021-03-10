@@ -212,6 +212,7 @@ stbtn.addEventListener('click', function () {
             clearInterval(timeid2);
             i = 0;
         }
+        i++;
         console.log(c);
         btncolor(c);
     }, 1000);
