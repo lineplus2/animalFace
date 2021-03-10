@@ -33,6 +33,46 @@ for (var i = 0; i < 12; i++) {
     arr.push(num);
 }
 
+function btnDisabled() {
+    bt1.disabled = true;
+    bt2.disabled = true;
+    bt3.disabled = true;
+    bt4.disabled = true;
+    bt5.disabled = true;
+    bt6.disabled = true;
+    bt7.disabled = true;
+    bt8.disabled = true;
+    bt9.disabled = true;
+    bt10.disabled = true;
+    bt11.disabled = true;
+    bt12.disabled = true;
+    bt13.disabled = true;
+    bt14.disabled = true;
+    bt15.disabled = true;
+    bt16.disabled = true;
+    stbtn.disabled = true;
+}
+
+function btnActive() {
+    bt1.disabled = false;
+    bt2.disabled = false;
+    bt3.disabled = false;
+    bt4.disabled = false;
+    bt5.disabled = false;
+    bt6.disabled = false;
+    bt7.disabled = false;
+    bt8.disabled = false;
+    bt9.disabled = false;
+    bt10.disabled = true;
+    bt11.disabled = true;
+    bt12.disabled = true;
+    bt13.disabled = true;
+    bt14.disabled = true;
+    bt15.disabled = true;
+    bt16.disabled = true;
+    stbtn.disabled = true;
+}
+
 var i = 0;
 var j = 0;
 
@@ -250,11 +290,13 @@ bt9.addEventListener('click', function () {
 
 stbtn.addEventListener('click', function () {
     i = 0;
+    btnDisabled();
     timeid2 = setInterval(function () {
         score.innerText = '현재점수 : 0 / 12';
         var c = arr[i];
         if (i === 11) {
             clearInterval(timeid2);
+            btnActive();
             i = 0;
         }
         btncolor(c);

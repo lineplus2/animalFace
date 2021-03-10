@@ -36,6 +36,7 @@ function btnDisabled() {
     bt7.disabled = true;
     bt8.disabled = true;
     bt9.disabled = true;
+    stbtn.disabled = true;
 }
 
 function btnActive() {
@@ -48,6 +49,7 @@ function btnActive() {
     bt7.disabled = false;
     bt8.disabled = false;
     bt9.disabled = false;
+    stbtn.disabled = false;
 }
 
 var i = 0;
