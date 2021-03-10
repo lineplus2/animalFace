@@ -26,6 +26,30 @@ for (var i = 0; i < 9; i++) {
     arr.push(num);
 }
 
+function btnActive() {
+    bt1.disabled = true;
+    bt2.disabled = true;
+    bt3.disabled = true;
+    bt4.disabled = true;
+    bt5.disabled = true;
+    bt6.disabled = true;
+    bt7.disabled = true;
+    bt8.disabled = true;
+    bt9.disabled = true;
+}
+
+function btnDisabled() {
+    bt1.disabled = false;
+    bt2.disabled = false;
+    bt3.disabled = false;
+    bt4.disabled = false;
+    bt5.disabled = false;
+    bt6.disabled = false;
+    bt7.disabled = false;
+    bt8.disabled = false;
+    bt9.disabled = false;
+}
+
 var i = 0;
 var j = 0;
 
@@ -201,6 +225,7 @@ bt9.addEventListener('click', function () {
 
 stbtn.addEventListener('click', function () {
     i = 0;
+    btnDisabled();
     timeid2 = setInterval(function () {
         score.innerText = '현재점수 : 0 / 9';
         var c = arr[i];
@@ -211,4 +236,5 @@ stbtn.addEventListener('click', function () {
         btncolor(c);
         i++;
     }, 1000);
+    btnActive();
 });
