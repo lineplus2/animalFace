@@ -206,6 +206,7 @@ bt9.addEventListener('click', function () {
 
 stbtn.addEventListener('click', function () {
     timeid2 = setInterval(function () {
+        i = 0;
         score.innerText = '현재점수 : 0 / 9';
         var c = arr[i];
         if (i === 8) {
