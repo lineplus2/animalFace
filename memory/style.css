@@ -67,6 +67,7 @@ a {
 .difficult button {
     width: 45%;
     height: 50px;
+    font-weight: bolder;
 }
 
 .copyright {
