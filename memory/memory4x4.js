@@ -63,14 +63,14 @@ function btnActive() {
     bt7.disabled = false;
     bt8.disabled = false;
     bt9.disabled = false;
-    bt10.disabled = true;
-    bt11.disabled = true;
-    bt12.disabled = true;
-    bt13.disabled = true;
-    bt14.disabled = true;
-    bt15.disabled = true;
-    bt16.disabled = true;
-    stbtn.disabled = true;
+    bt10.disabled = false;
+    bt11.disabled = false;
+    bt12.disabled = false;
+    bt13.disabled = false;
+    bt14.disabled = false;
+    bt15.disabled = false;
+    bt16.disabled = false;
+    stbtn.disabled = false;
 }
 
 var i = 0;
