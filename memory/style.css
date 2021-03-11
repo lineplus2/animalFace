@@ -80,8 +80,7 @@ a {
 }
 
 .links {
-    text-align: center;
-    margin: 5px;
+    display: none;
 }
 .ad-banner {
     width: 320;
