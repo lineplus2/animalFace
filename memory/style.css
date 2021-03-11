@@ -90,6 +90,10 @@ a {
     margin: 0 auto;
 }
 
+.links {
+    display: none;
+}
+
 @media screen and (max-width: 450px) {
     .menu {
         margin: 0 auto;
